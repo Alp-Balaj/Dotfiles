@@ -54,6 +54,9 @@ alias zed="zeditor"
 alias flej="systemctl suspend"
 alias ntm="poweroff"
 
+# shell scripts
+alias bruh="~/Dotfiles/Common/scripts/bruhBreak.sh"
+
 export TERM=xterm-256color
 
 # Load dotnet tools as well as CLI.

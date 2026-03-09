@@ -3,7 +3,7 @@
 
   "logo": {
     "type": "chafa",
-    "source": "~/Documents/SpongeBob.jpg",
+    "source": "~/Dotfiles/Common/SpongeBob.jpg",
     "width": 55,
     "height": 27,
     "chafa": {

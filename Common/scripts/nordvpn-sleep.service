@@ -1,0 +1,14 @@
+[Unit]
+Description=NordVPN reconnect after sleep
+Before=sleep.target
+StopWhenUnneeded=yes
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/nordvpn disconnect
+ExecStop=/usr/bin/nordvpn connect
+Environment="HOME=/root"
+
+[Install]
+WantedBy=sleep.target

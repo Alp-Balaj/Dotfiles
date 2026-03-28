@@ -64,3 +64,5 @@ export PATH="$PATH:$HOME/.dotnet/tools"
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"

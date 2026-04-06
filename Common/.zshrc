@@ -58,7 +58,7 @@ alias ntm="poweroff"
 alias bruh="~/Dotfiles/Common/scripts/bruhBreak.sh"
 
 # claude
-alias claudevault='claude --allowedTools "Read,LS,Glob,Grep"'
+alias claudev='claude --allowedTools "Read,LS,Glob,Grep"'
 
 export TERM=xterm-256color
 

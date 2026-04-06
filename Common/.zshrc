@@ -8,7 +8,7 @@ eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/alp-theme.json)"
 # show "Waiting..." whilst waiting for completion.
 COMPLETION_WAITING_DOTS="%F{yellow}Waiting...%f"
 
-# Zsh pluggins, 
+# Zsh pluggins,
 # Git for git support, i believe it's self explanatory
 # Zsh-Autosuggestions when pressing tab it will autosuggest commands, and directories
 # Zsh-syntax-highlighting I have no clue what this does it might have to do with showing pre run successful commands.
@@ -56,6 +56,9 @@ alias ntm="poweroff"
 
 # shell scripts
 alias bruh="~/Dotfiles/Common/scripts/bruhBreak.sh"
+
+# claude
+alias claudevault='claude --allowedTools "Read,LS,Glob,Grep"'
 
 export TERM=xterm-256color
 
